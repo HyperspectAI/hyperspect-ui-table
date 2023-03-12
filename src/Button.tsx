@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
-const a = 'a';
 export interface ButtonProps {
-    label: string;
+  label: string
 }
 
-const Button = (props: ButtonProps) => {
-    return <button>{props.label}</button>;
-};
+function Button(props: ButtonProps): unknown {
+  const { label } = props;
+  return <button type="button">{label}</button>;
+}
 
 export default Button;
