@@ -1,5 +1,6 @@
 import React from "react";
 
+const a = 'a';
 export interface ButtonProps {
     label: string;
 }
